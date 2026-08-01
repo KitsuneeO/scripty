@@ -1,2 +1,2 @@
 @echo off
-@echo NIE ZNALEZIONO CINEMY 
+@echo NIE ZNALEZIONO CINEMY
