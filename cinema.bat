@@ -1,2 +1,3 @@
 @echo off
-@echo nie masz cinemy
+start https://www.youtube.com
+exit
