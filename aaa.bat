@@ -1,2 +1,5 @@
 @echo off
-start cmd /k "title OP Nadany && color 2 && echo. && echo ========================== && echo        OP NADANY && echo =========================="
+title Wykryte kamery
+powershell -NoProfile -Command "Get-PnpDevice -Class Camera | Select-Object FriendlyName, Status | Format-Table -AutoSize"
+echo.
+pause
